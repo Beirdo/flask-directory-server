@@ -31,7 +31,7 @@ def after_request(response):
 
 
 def main():
-    parser = ArgumentParser("Run a flask servlet to feed out brazil build data")
+    parser = ArgumentParser("Run a flask servlet to feed out static data")
     parser.add_argument("--basedir", "-B", default="~/flask/root", help="Set base directory (default %(default)s)")
     parser.add_argument("--logdir", "-l", default="~/flask/logs", help="Set log directory (default %(default)s)")
     parser.add_argument("--port", "-P", default=8123, type=int, help="TCP port to listen on (default %(default)d)")
